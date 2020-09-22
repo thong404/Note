@@ -1,2 +1,3 @@
-https://gribblelab.org/CBootCamp/
 https://www.eskimo.com/~scs/cclass/krnotes/sx4.html
+# lines to line, ignore .{0} it's just for fun
+egrep -o '.{0}Mcu.{0,8}' file1.txt | tr '\n' ' ' >file.txt
